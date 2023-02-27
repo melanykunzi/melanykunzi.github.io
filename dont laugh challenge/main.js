@@ -1,0 +1,50 @@
+const jokes = [
+    "I only know 25 letters of the alphabet. I don't know y.",
+    "I don't trust stairs. They're always up to something.",
+    "I have a joke about chemistry, but I don't think it will get a reaction.",
+    "What kind of shoes do ninjas wear? Sneakers!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "What do you call a fake noodle? An impasta!",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "What's the difference between a snowman and a snowwoman? Snowballs!",
+    "Why did the coffee file a police report? It got mugged!",
+    "What do you call a can opener that doesn't work? A can't opener!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
+    "Why was the math book sad? Because it had too many problems!",
+    "Why did the chicken cross the playground? To get to the other slide!",
+    "What's the difference between a poorly dressed man on a trampoline and a well-dressed man on a trampoline? Attire!",
+    "Why did the computer go to the doctor? Because it had a virus!",
+    "What do you call a belt made out of watches? A waist of time!",
+    "Why did the man put his money in the freezer? He wanted cold hard cash!",
+    "What do you call a lazy kangaroo? A pouch potato!",
+    "Why did the bicycle fall over? Because it was two tired!",
+    "What do you call a sleeping bull? A bulldozer!",
+    "Why did the banana go to the doctor? Because it wasn't peeling well!",
+    "What do you call a man with no arms and no legs in the water? Bob!",
+    "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+    "What did the grape say when it got stepped on twice? Nothing, it just let out a little more wine!",
+    "Why do seagulls fly over the sea? Because if they flew over the bay, they'd be bagels!",
+    "What do you call an alligator wearing a vest? An investigator!",
+    "Why did the chicken join a band? Because it already had drumsticks!",
+    "What do you call a deer with no eyes? No idea!",
+    "Why do elephants never use computers? They're afraid of mice!",
+    "What do you get when you cross a snowman and a shark? Frostbite!",
+    "Why did the man run around his bed? He wanted to catch up on his sleep!",
+    "What do you get when you cross a vampire and a snowman? Frostbite!",
+    "Why did the cookie go to the doctor? Because it felt crummy!",
+    "What do you call an alligator in a vest? An investigator!",
+    "Why do we tell actors to break a leg? Because every play has a cast!",
+    "Why did the robot go on a diet? It had too many megabytes!",
+    "What do you call a belt made of watches? A waist of time!",
+    "Why did the boy sprinkle sugar on his pillow before he went to sleep? So he could have sweet dreams!",
+    "Why don't oysters share their pearls? Because they're shellfish!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "What do you call a boomerang that doesn't come back? A stick!"
+];
+const midiv = document.querySelector('.joke');
+
+function randomjoke(){
+    const index = Math.floor(Math.random() * jokes.length);
+    midiv.textContent = jokes[index];
+}
