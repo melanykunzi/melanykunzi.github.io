@@ -10,10 +10,28 @@ h1 {
 span {
     color: red;
 }
+button{
+    color: white;
+    border-color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    border: solid 1px black;
+    background-color: white;
+}
+.fase{
+    font-size: 20px;
+    border: 1px solid gray;
+    color: gray;
+}
 .pelicula {
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    margin: 20px;
 }
 .pelicula img {
     width: 100px;
