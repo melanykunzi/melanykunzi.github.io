@@ -1,0 +1,29 @@
+ body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+span {
+    color: red;
+}
+.pelicula {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.pelicula img {
+    width: 100px;
+    height: 150px;
+    padding: 10px;
+    border: solid 1px red;
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+.pelicula p {
+    margin: 0;
+    font-weight: bold;
+}
