@@ -7,7 +7,9 @@ const elementos = document.querySelectorAll(".elementoClick");
 const reset = document.getElementById("reset");
 const gano = document.getElementById("gano");
 const perdio = document.getElementById("perdio");
-let lista = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+let lista = [0,0,0,0,0,0,0,0,0,0]
+
 const botonReset = document.getElementById("reset");
 botonReset.addEventListener("click", function() {
   location.reload();
