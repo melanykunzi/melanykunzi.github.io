@@ -56,6 +56,7 @@ function juego_terminado(){
     if (lista === listaOrdenada){
         console.log('ganaste')
         gano.style.display = "block";
+        gano.hidden = false;
     } else {
         console.log('perdiste')
         perdio.hidden = false;

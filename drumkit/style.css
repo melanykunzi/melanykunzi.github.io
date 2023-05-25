@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1624929303661-22c5bce0169b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    max-width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.key{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+span{
+    font-size: 12px;
+    color: yellow;
+    font-weight: lighter;
+}
+.key.active {
+    border-color: yellow;
+    transform: scale(1.05);
+}
+@media screen and (max-width: 600px) {
+    /* Reglas CSS para pantallas de hasta 600px de ancho */
+    /* Por ejemplo, ajustar el tamaño del texto y cambiar el diseño */
+    body {
+        max-width: 100%;
+        overflow-x: hidden; /* Evita la aparición de barras de desplazamiento horizontales */
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .container > div {
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+    }
+}
