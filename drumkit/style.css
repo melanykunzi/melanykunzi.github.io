@@ -48,6 +48,9 @@ span{
         overflow-x: hidden; /* Evita la aparición de barras de desplazamiento horizontales */
         margin: 0;
         padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .container {
         max-width: 500px;
